@@ -11,7 +11,7 @@ Date: 2026-07-04 · Status: completed · Goal: Lernplan Geschichte für Ben nach
   4. Aufgabenverständnis trainieren (Operatoren: Was verlangt „Analyse" genau?) — war Problem in der Klausur.
   5. Zeitmanagement in der Klausur trainieren — war Problem in der Klausur.
 - Termine: Mathematik Mi 9.7.2026, Geschichte Do 10.7.2026 → nur 1 Tag Abstand, Pläne überlappen.
-- Priorität: **Nur Geschichte.** Mathe-Klausur (Do 9.7.) wird ohne Vorbereitung mitgeschrieben — reine Klausurerfahrung (Lücken zu groß, Klausurnoten zählen an der Privatschule nicht in die Abi-Note).
+- Priorität: **Nur Geschichte.** Mathe-Klausur (Do 9.7.) wird ohne Vorbereitung mitgeschrieben — reine Klausurerfahrung (Lücken zu groß, Klausurnoten zählen an der Privatschule nicht in die Abi-Note). *(Nachtrag 4.7. abends: revidiert — Mathe bekommt doch ein Minimalprogramm, siehe `2026-07-04-mathe-miniplan.md` und `Lernpfad_Mathe.md`.)*
 - Kalender: Sa 4.7. (heute) Setup + YouTube-Einstieg · So 5.7.–Mi 8.7. = 4 Lerntage × 2 h effektiv · Do 9.7. Mathe-Klausur · Fr 10.7. Geschichte-Klausur.
 - Klausurformat: immer eine alte NRW-Abiturklausur, gestellt auf **135 min**. Blaupause mit Erwartungshorizont liegt vor (Abi 2024 GK HT 3).
 - Moodle: kein direkter Connector verfügbar. Optionen: (a) manueller Export der Kursinhalte in den Repo-Ordner, (b) Skript-Download über Moodle-Web-Service-API mit Bens Zugangsdaten (falls Schule die Mobile-App-Schnittstelle aktiviert hat).
