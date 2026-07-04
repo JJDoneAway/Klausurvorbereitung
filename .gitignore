@@ -1,5 +1,7 @@
 .DS_Store
 .claude/
 *.tmp
-content/*.svg
-content/*.css
+sowi/material/*.svg
+sowi/material/*.css
+archiv/unsorted/*.svg
+archiv/unsorted/*.css
