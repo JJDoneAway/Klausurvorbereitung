@@ -1,17 +1,18 @@
 # 🗺️ Lernpfad Geschichte-Klausur — Der Baum der sterbenden Republik
 
-**TL;DR:** Klausur Fr 10.7., 135 min, eine originale NRW-Abi-GK-Klausur. Thema: Weimarer Republik, Schwerpunkt Zerstörung 1930–33 (Ära Brüning). 4 Lerntage (So–Mi) à 2 h effektiv + Generalprobe am Mi. Karteikarten zum Ausdrucken liegen bei. Die zwei SoWi-Schwächen (Zeit + Aufgabenverständnis) trainieren wir jeden Tag gezielt mit.
+**TL;DR:** Klausur Fr 10.7., 135 min, eine originale NRW-Abi-GK-Klausur. Thema: Weimarer Republik, Schwerpunkt Zerstörung 1930–33 (Ära Brüning). 4 Lerntage (So–Mi) à 2 h effektiv + [Generalprobe](<geschichte/Generalprobe_Klausur_Geschichte.md>) am Mi. Karteikarten: [zum Lesen](<geschichte/Karteikarten_Geschichte.md>) · [Druck-PDF zum Ausschneiden](<geschichte/karteikarten_geschichte_druck.pdf>). Die zwei SoWi-Schwächen (Zeit + Aufgabenverständnis) trainieren wir jeden Tag gezielt mit.
 
 ---
 
 ## 📅 DEIN PLAN — Klausur **Freitag, 10.7.**
 
 ### ▢ HEUTE — Sa 4.7. *(Sofa, kein Stift!)*
-Nur schauen, nichts lernen. Such auf YouTube diese Titel (je ~10–20 min):
-- **MrWissen2go Geschichte**: „Die Weimarer Republik einfach erklärt" *(Überblick)*
-- **MrWissen2go Geschichte**: „Das Scheitern der Weimarer Republik" *(DAS Klausurthema)*
-- **MrWissen2go Geschichte**: „Hitlers Machtergreifung" *(das Ende 1933)*
-- Optional: **Terra X History**: „Weimar – die erste deutsche Demokratie"
+Nur schauen, nichts lernen (je ~10–15 min, alle von Mirko Drotschmann / funk / ZDF):
+- ▶️ [Die Weimarer Verfassung | musstewissen Geschichte](https://www.youtube.com/watch?v=D0CTE5mP1uo) *(das Fundament — hier lernst du Art. 48 kennen!)*
+- ▶️ [Das Krisenjahr 1923 | musstewissen Geschichte](https://www.youtube.com/watch?v=sVkEY87L-xI) *(Hyperinflation, Ruhrbesetzung, Hitlerputsch)*
+- ▶️ [Hitlers Aufstieg: Vom „Niemand" zum Diktator | MrWissen2go Geschichte (ZDF)](https://www.zdf.de/video/explainer/mrwissen2gogeschichte-102/hitlers-aufstieg-102) *(1918–1933 — DAS Klausurthema vom Ende her)*
+- Optional: ▶️ [Die Goldenen Zwanziger | musstewissen Geschichte](https://www.youtube.com/watch?v=005q7qWvfGo) *(die Brücke 1924–29)*
+- Zum Stöbern: 📃 [Playlist „Weimarer Republik & Zwischenkriegszeit 1918–1933" | MrWissen2go Geschichte](https://www.youtube.com/playlist?list=PLhYmW7SUsbvbXJUYrBSDiJFoM8oWo_Ylg)
 
 Beim Schauen nur EINE Frage im Kopf: **„Wer bringt die Republik um — und womit?"**
 
@@ -21,14 +22,14 @@ Beim Schauen nur EINE Frage im Kopf: **„Wer bringt die Republik um — und wom
 | 15 min | **Selbsttest** (unten, Station 0) — ehrlich, ohne Spicken | ▢ |
 | 25 min | Station 0: Klausur-Werkzeug + Operatoren-Dekoder lesen | ▢ |
 | 45 min | AST 1 + AST 2: Geburtsfehler 1918/19 + Krisenjahre 1919–23 (mit Karteikarten B + C) | ▢ |
-| 35 min | **Übung unter Zeit**: Aufgabe 1 der 2019er-Klausur (Karikatur analysieren) → `geschichte/material/klausuren/Abitur-2019-…pdf` | ▢ |
+| 35 min | **Übung unter Zeit**: Aufgabe 1 der [2019er-Abiturklausur (Karikatur, mit Erwartungshorizont)](<geschichte/material/klausuren/Abitur-2019-GK-HT2_Karikatur-1919_mit-Erwartungshorizont.pdf>) analysieren | ▢ |
 | 10 min | Selbstkorrektur gegen den Erwartungshorizont im selben PDF | ▢ |
 
 ### ▢ TAG 2 — Mo 6.7. *(2 h: Der Kern, Teil 1)*
 | Zeit | Was | Check |
 |---|---|---|
 | 10 min | Karteikarten von gestern durchgehen (B + C) | ▢ |
-| 50 min | AST 4, Stationen 8–10: WWK 1929 → Bruch der Koalition → **Brüning, Art. 48, Deflationspolitik** (bpb-Text „Zerstörung der Demokratie" lesen, Karten E1–E7) | ▢ |
+| 50 min | AST 4, Stationen 8–10: WWK 1929 → Bruch der Koalition → **Brüning, Art. 48, Deflationspolitik** ([bpb-Text „Zerstörung der Demokratie 1930–1933"](<geschichte/material/weimar/Zerstörung der Demokratie 1930-1933 _ Weimarer Republik _ bpb.de_5c563e92379290d2868e182052b9fb93.pdf>) lesen, Karten E1–E7) | ▢ |
 | 45 min | **Übung unter Zeit**: Aufgabentyp 2 — „Erläutern Sie den Machtmechanismus der Präsidialkabinette und ordnen Sie Brünings Politik in die Krise ab 1929 ein." Schriftlich, ganze Sätze. | ▢ |
 | 15 min | Selbstkorrektur mit Checkliste Aufgabentyp 2 (unten) | ▢ |
 
@@ -44,7 +45,7 @@ Beim Schauen nur EINE Frage im Kopf: **„Wer bringt die Republik um — und wom
 ### ▢ TAG 4 — Mi 8.7. *(~3 h: GENERALPROBE — der wichtigste Tag)*
 | Zeit | Was | Check |
 |---|---|---|
-| 135 min | **Volle Generalprobe** unter Klausurbedingungen: `Generalprobe_Klausur_Geschichte.md` — Handy weg, Timer an, handschriftlich | ▢ |
+| 135 min | **Volle Generalprobe** unter Klausurbedingungen: [Generalprobe_Klausur_Geschichte.md](<geschichte/Generalprobe_Klausur_Geschichte.md>) — Handy weg, Timer an, handschriftlich | ▢ |
 | 30 min | Selbstkorrektur gegen den Erwartungshorizont in der Generalprobe. Notiere die 3 größten Lücken. | ▢ |
 | 10 min | Die 3 Lücken als Karteikarten markieren → morgen nur die wiederholen | ▢ |
 
@@ -107,7 +108,7 @@ Eine originale Abi-GK-Klausur hat **immer 3 Aufgaben** und **100 Punkte** (80 In
 
 Zwei mögliche Materialarten:
 - **Aufgabenart A = Quelle**: Text/Bild AUS der Zeit (Rede, Brief, Karikatur, Plakat)
-- **Aufgabenart B = Darstellung**: Text eines HEUTIGEN Historikers ÜBER die Zeit (wie die Abi-2024-Klausur in `geschichte/material/klausuren/` — schau sie dir am Tag 1 kurz an, damit du das Format einmal gesehen hast)
+- **Aufgabenart B = Darstellung**: Text eines HEUTIGEN Historikers ÜBER die Zeit (wie die [Abi-2024-Klausur](<geschichte/material/klausuren/Abitur-2024-GK-HT3_1848-Nationalbewegung_geschrieben-am-121225.pdf>) — schau sie dir am Tag 1 kurz an, damit du das Format einmal gesehen hast)
 
 **Wichtig:** Das wird deine **erste Geschichte-Klausur in diesem Format**. Deshalb sind die täglichen Übungen unter Zeit und die Generalprobe am Mittwoch keine Kür, sondern der wichtigste Teil des Plans — das Format darf dir am Freitag nicht neu sein.
 
@@ -172,21 +173,21 @@ Beantworte mündlich oder in Stichworten. Danach Karten checken:
 **Leitfrage:** Startet die Republik schon mit dem Rücken zur Wand?
 **Kern:** Novemberrevolution → Doppel-Ausrufung der Republik → Rat der Volksbeauftragten + Ebert-Groener-Pakt (Bündnis mit alten Eliten!) → Weimarer Verfassung: modernste der Welt, aber mit Selbstzerstörungsknopf (Art. 48, Art. 25) → Versailles („Diktatfrieden", §231 Kriegsschuld) → Dolchstoßlegende vergiftet alles.
 **Merksatz:** *Die Republik wird von Leuten verwaltet, die sie nicht lieben, und von Legenden belastet, die sie nicht loswird.*
-📚 Material: Karten B1–B8 · Video von gestern · `geschichte/material/weimar/dolchstoßlegende….pdf`
+📚 Material: Karten B1–B8 · Video von gestern · [Die Dolchstoßlegende](<geschichte/material/weimar/dolchstoßlegende _ac99758874bf31bda492e76d41d33e0b.pdf>)
 
 # 🌿 AST 2 — KRISENJAHRE 1919–23 *(Tag 1)*
 
 **Leitfrage:** Wie überlebt die Republik ihre erste Zerreißprobe — und was bleibt als Narbe?
 **Kern:** Angriffe von rechts (Kapp-Putsch 1920, Politmorde Erzberger/Rathenau, Hitlerputsch 1923) und links (Ruhrkampf-Unruhen) + Ruhrbesetzung 1923 → passiver Widerstand → **Hyperinflation** (Erspartes vernichtet → Mittelschicht verbittert = spätere NSDAP-Wähler!) → Rettung durch Stresemann (Rentenmark, Dawes-Plan).
-**Justiz-Narbe:** Hitler bekommt für Hochverrat nur 5 Jahre Festungshaft (nach 9 Monaten frei) — die Justiz ist **auf dem rechten Auge blind**. (Kennst du schon: deine Hitler-Prozess-Aufgaben!)
+**Justiz-Narbe:** Hitler bekommt für Hochverrat nur 5 Jahre Festungshaft (nach 9 Monaten frei) — die Justiz ist **auf dem rechten Auge blind**. (Kennst du schon: [deine Hitler-Prozess-Antworten](<geschichte/material/weimar/bens-antworten-hitler-prozess.txt>)!)
 **Merksatz:** *Die Republik übersteht 1923 — aber die Inflation frisst das Vertrauen der Mitte, und die Justiz schont ihre Feinde.*
-📚 Material: Karten C1–C6 · `geschichte/material/weimar/Hyperinflation….pdf`, `geschichte/material/weimar/Ruhrbesetzung….pdf`, `geschichte/material/weimar/NAZI_PUTSCH_TRIAL….pdf`
+📚 Material: Karten C1–C6 · [Hyperinflation 1923](<geschichte/material/weimar/Hyperinflation Deutschland 1923_af0ef3d56bd7a97bdf2c677c39a8da57.pdf>) · [Ruhrbesetzung 1923](<geschichte/material/weimar/Ruhrbesetzung_1923_2bb75c605bc7fca2b96e55c236abcc39.pdf>) · [Hitler-Prozess 1924](<geschichte/material/weimar/NAZI_PUTSCH_TRIAL_DE_4a5dd9a986b499ad92fc3dc372a39453.pdf>)
 
 # 🌿 AST 3 — SCHEINSTABILITÄT 1924–29 *(Tag 2, nur 10 min als Brücke)*
 
 **Kern in 3 Sätzen:** Dawes-Plan (1924) und Young-Plan (1929) regeln die Reparationen, US-Kredite finanzieren den Aufschwung — Deutschland hängt am amerikanischen Tropf. Außenpolitik entspannt sich (Locarno 1925, Völkerbund 1926). Aber: 1925 wird mit **Hindenburg ein monarchistischer Kriegsheld Reichspräsident** — der Mann, der später alles entscheidet.
 **Merksatz:** *Die goldenen Jahre sind geliehen — Geld aus den USA, Stabilität ohne Fundament.*
-📚 Karten D1–D4 · `geschichte/material/weimar/Dawes Plan Propaganda….pdf` + dein Young-Plan-Plakat-Text
+📚 Karten D1–D4 · [Dawes-Plan-Propaganda der NSDAP](<geschichte/material/weimar/Dawes Plan Propaganda nsdap_ab95582d25847688cb13be7796c173bb.pdf>) · [dein Young-Plan-Plakat-Text](<geschichte/material/weimar/Young plan _b32b908d55893bb89bdc2f1bfaa2e31c.txt>)
 
 # 🌿 AST 4 — TODESKAMPF 1930–33 ★ KLAUSUR-SCHWERPUNKT ★ *(Tag 2 + 3)*
 
@@ -204,7 +205,7 @@ März 1930: Große Koalition unter **Hermann Müller (SPD)** zerbricht am Streit
 - Sept. 1930 Neuwahl (Brünings Fehlkalkulation!): NSDAP springt von 2,6 % auf **18,3 %** — zweitstärkste Partei.
 
 ### Station 11 — Die SPD-Tolerierung: das Dilemma der Demokraten *(Tag 3)*
-SPD stürzt Brüning NICHT (Tolerierungspolitik): kleineres Übel, um Schlimmeres (Hitler, Neuwahlen) zu verhindern. Preis: Die Demokraten tragen die Aushöhlung der Demokratie mit — und verlieren Glaubwürdigkeit bei den eigenen Wählern. *(Dein WELT-Artikel zum Berliner Metallerstreik 1930 zeigt genau diesen Konflikt zwischen SPD- und KPD-Lager.)*
+SPD stürzt Brüning NICHT (Tolerierungspolitik): kleineres Übel, um Schlimmeres (Hitler, Neuwahlen) zu verhindern. Preis: Die Demokraten tragen die Aushöhlung der Demokratie mit — und verlieren Glaubwürdigkeit bei den eigenen Wählern. *([Dein WELT-Artikel zum Berliner Metallerstreik 1930](<geschichte/material/weimar/Weimarer Republik_ Der „politische Streik“ der Linken nützte den Nazis_33bf2517fa99c4ad5a90d05529230418.pdf>) zeigt genau diesen Konflikt zwischen SPD- und KPD-Lager.)*
 **KPD:** bekämpft die SPD als „Sozialfaschisten" statt die Nazis — die Linke ist gespalten.
 
 ### Station 12 — Papen + Preußenschlag *(Tag 3)*

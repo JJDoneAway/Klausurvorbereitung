@@ -222,7 +222,7 @@ Kern ist **fast immer ein Text** (Kommentar/Rede/Artikel), manchmal + Statistik.
 
 **📄 Lies:**
 - 🔴 [Deflation: Was ist das?](<sowi/material/Deflation_ Was ist das_ – Definition, Merkmale und Folgen_2bc7aa521c92b3f019fca5d7afa72488.pdf>) — *warum:* erklärt die gefährliche Abwärtsspirale.
-- 🔴 [EU-Treffen: Auf dem Weg in die Stagflation](<sowi/material/EU-Treffen_ Auf dem Weg in die „Stagflation“ – Europa droht ein ökonomischer Albtraum - WELT_c1a1af2c83f3db134f22baa3060c5bc4.pdf>) — *warum:* zeigt, warum Stagflation der „Albtraum" ist.
+- 🔴 [EU-Treffen: Auf dem Weg in die Stagflation](<sowi/material/EU-Treffen_ Auf dem Weg in die „Stagflation“ – Europa droht ein ökonomischer Albtraum - WELT_c1a1af2c83f3db134f22baa3060c5bc4.pdf>) — *warum:* zeigt, warum Stagflation der „Albtraum" ist.
 - 🟡 [Karikatur Spritpreise](<sowi/material/zur_lage_der_spritpreise_4800255_107b781ca0bb9b8a21e10131c3f96b24.jpg>) — *warum:* Energiepreise + Geopolitik als Inflationstreiber, perfekt zum Karikatur-Üben.
 
 **🎥 Video:** [explainity: Leitzins einfach erklärt](https://www.youtube.com/watch?v=cB9FfCjQl0U) — *warum:* zeigt ruhig, wie Inflation und Zinsen zusammenhängen (Brücke zu Station 3).

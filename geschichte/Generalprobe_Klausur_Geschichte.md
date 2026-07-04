@@ -19,7 +19,7 @@ Interpretieren Sie die Karikatur, indem Sie
 ### Materialgrundlage:
 
 - Alfred Beier-Red: **„Dr. Brüning"**. In: Eulenspiegel, Januar 1931.
-- Bild öffnen: `geschichte/material/weimar/karikatur-scheitern-der-weimarer-republik_….png` *(größer und mit Bildbeschreibung: geschichte-abitur.de → Quellen Weimarer Republik → „Karikatur zum Scheitern der Weimarer Republik")*
+- Bild öffnen: [Karikatur „Dr. Brüning"](<material/weimar/karikatur-scheitern-der-weimarer-republik_d4b9af125e5b804e3e80c135606c1330.png>) *(größer und mit Bildbeschreibung: [geschichte-abitur.de — „Karikatur zum Scheitern der Weimarer Republik"](https://www.geschichte-abitur.de/quellenmaterial/quellen-weimarer-republik/karikatur-zum-scheitern-der-weimarer-republik))*
 
 **Text unter dem Bild:** „Nach dieser Medizin, Madame Republik, werden Sie die Verfassung endgültig abführen."
 

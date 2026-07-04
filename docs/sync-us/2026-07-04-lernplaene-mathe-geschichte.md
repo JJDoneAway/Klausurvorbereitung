@@ -29,7 +29,7 @@ Date: 2026-07-04 · Status: completed · Goal: Lernplan Geschichte für Ben nach
 (keine — Interview abgeschlossen)
 
 ## Nachtrag 4.7. abends — Repo umstrukturiert
-Repo umbenannt in `Klausurvorbereitung`. Neue Struktur: Root nur `Lernpfad.md` (SoWi) + `Lernpfad_Geschichte.md` (+ Konfiguration). `sowi/` (Aufgabenstellung, Erwartungshorizont, Studienbericht, `material/`), `geschichte/` (Karteikarten, Generalprobe, Druck-PDF, `material/weimar` + `material/klausuren`), `archiv/unsorted/`, `docs/sync-us/`. Pfad-Angaben in älteren Protokoll-Einträgen unten (`content/…`) sind historisch.
+Repo umbenannt in `Klausurvorbereitung`. Neue Struktur: Root nur `Lernpfad_SoWi.md` + `Lernpfad_Geschichte.md` (+ Konfiguration). `sowi/` (Aufgabenstellung, Erwartungshorizont, Studienbericht, `material/`), `geschichte/` (Karteikarten, Generalprobe, Druck-PDF, `material/weimar` + `material/klausuren`), `archiv/unsorted/`, `docs/sync-us/`. Pfad-Angaben in älteren Protokoll-Einträgen unten (`content/…`) sind historisch.
 
 ## Build-Tasks — ERLEDIGT am 4.7.
 1. ✅ Material sortiert: 21 Weimar-Dateien + 2 Original-Abiturklausuren (2019 GK Karikatur-Interpretation, 2024 GK Darstellungsanalyse 1848, beide mit Erwartungshorizont) → `content/geschichte/`.

@@ -1,6 +1,6 @@
 # 🗂️ Karteikarten Geschichte — Weimarer Republik
 
-**TL;DR:** 42 Karteikarten zum Lernpfad Geschichte (Klausur 10.7.). Format: Frage (Vorderseite) / Antwort (Rückseite). Druckversion: `karteikarten_geschichte_druck.pdf`. Codes: H = Handwerk, B = Geburtsfehler 1918/19, C = Krisenjahre 1919–23, D = Scheinstabilität 1924–29, E = Todeskampf 1930–33 (Schwerpunkt!), F = Krone/Urteilen.
+**TL;DR:** 42 Karteikarten zum Lernpfad Geschichte (Klausur 10.7.). Format: Frage (Vorderseite) / Antwort (Rückseite). Druckversion: [karteikarten_geschichte_druck.pdf](<karteikarten_geschichte_druck.pdf>). Codes: H = Handwerk, B = Geburtsfehler 1918/19, C = Krisenjahre 1919–23, D = Scheinstabilität 1924–29, E = Todeskampf 1930–33 (Schwerpunkt!), F = Krone/Urteilen.
 
 ---
 
