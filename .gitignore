@@ -1,5 +1,9 @@
 .DS_Store
-.claude/
+# .claude/ ignorieren, aber die mathetrainer-Skill tracken (Portabilitaet)
+.claude/*
+!.claude/skills/
+.claude/skills/*
+!.claude/skills/mathetrainer/
 *.tmp
 sowi/material/*.svg
 sowi/material/*.css
