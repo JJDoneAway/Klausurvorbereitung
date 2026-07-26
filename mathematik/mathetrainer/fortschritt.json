@@ -11,5 +11,7 @@
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M7": { "name": "Schnittwinkel (G-G, G-E, E-E)", "Grund": "offen", "Standard": "offen", "Abi": "offen" }
   },
-  "fehlerprotokoll": {}
+  "fehlerprotokoll": {
+    "M1": ["Verbindungsvektor: Punkte addiert statt Spitze minus Fuss (B-A)"]
+  }
 }
