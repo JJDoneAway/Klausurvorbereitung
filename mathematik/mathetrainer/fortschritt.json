@@ -1,7 +1,7 @@
 {
   "aktuelles_modul": "M1",
   "aktuelle_stufe": "Grund",
-  "serie": 0,
+  "serie": 1,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "aktiv", "Standard": "offen", "Abi": "offen" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
@@ -11,9 +11,5 @@
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M7": { "name": "Schnittwinkel (G-G, G-E, E-E)", "Grund": "offen", "Standard": "offen", "Abi": "offen" }
   },
-  "fehlerprotokoll": {
-    "M1_Grund": [
-      { "typ": "Vektor AB: Spitze minus Fuss vertauscht (P-Q statt Q-P)" }
-    ]
-  }
+  "fehlerprotokoll": {}
 }
