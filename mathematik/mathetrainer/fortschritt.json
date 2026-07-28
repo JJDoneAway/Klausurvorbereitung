@@ -1,15 +1,17 @@
 {
-  "aktuelles_modul": "M1",
+  "aktuelles_modul": "M2",
   "aktuelle_stufe": "Grund",
   "serie": 0,
   "module": {
-    "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "aktiv", "Standard": "offen", "Abi": "offen" },
-    "M2": { "name": "Skalarprodukt & Winkel", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
+    "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
+    "M2": { "name": "Skalarprodukt & Winkel", "Grund": "aktiv", "Standard": "offen", "Abi": "offen" },
     "M3": { "name": "Geraden aufstellen", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M4": { "name": "Lagebeziehung von Geraden (+ LGS)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M5": { "name": "Ebenen (Para-/Koordinatenform, Normalenvektor)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M7": { "name": "Schnittwinkel (G-G, G-E, E-E)", "Grund": "offen", "Standard": "offen", "Abi": "offen" }
   },
-  "fehlerprotokoll": {}
+  "fehlerprotokoll": {
+    "Kollinearitaet": ["Nicht alle Komponenten auf gemeinsames Lambda geprüft (M1 Standard)"]
+  }
 }
