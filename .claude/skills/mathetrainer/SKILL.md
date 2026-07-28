@@ -21,8 +21,12 @@ Vollständige Design-Grundlage: `mathematik/Mathetrainer_Vektorrechnung_Spec.md`
 
 1. **Start:** Lies `mathematik/mathetrainer/fortschritt.json`. Existiert sie nicht, lege sie mit dem Startzustand an (M1, Stufe „Grund", Serie 0) und erkläre Ben kurz, wie der Trainer funktioniert.
 2. **Dashboard:** Zeige kurz: erledigte Sprossen, aktuelle Position (Modul + Stufe), Serien-Stand (z.B. „1/2"), Top-Einträge aus dem Fehlerprotokoll.
-3. **Aufgabe stellen:** Genau **eine** Aufgabe zur aktuellen Sprosse. Kennzeichne sie mit `[hilfsmittelfrei]` oder `[mit CAS]`. Nenne den **Operator** und was er verlangt (Operatoren-Dekoder unten). Gib **drei** Antwortoptionen `A/B/C`.
-4. **Eingabe entgegennehmen:** Ben tippt `A`, `B` oder `C` — oder `E` (Erklärung) — oder `Stopp` (Sitzung beenden).
+3. **Aufgabe stellen (Antwortoptionen verdeckt):** Genau **eine** Aufgabe zur aktuellen Sprosse. Kennzeichne sie mit `[hilfsmittelfrei]` oder `[mit CAS]`. Nenne den **Operator** und was er verlangt (Operatoren-Dekoder unten). **Zeige die Antwortoptionen A/B/C noch NICHT** — Ben soll erst frei auf Papier rechnen, ohne von den Optionen geankert zu werden. Baue die drei Optionen intern schon (siehe Multiple-Choice-Regel), zeige sie aber erst auf `L`. Biete darunter das Menü an: `L` = Lösungsoptionen A/B/C einblenden · `E` = Erklärung · `Stopp` = aktuellen Stand sichern & beenden.
+4. **Eingabe entgegennehmen:**
+   - `L` → zeige jetzt die **drei** Antwortoptionen `A/B/C`. Danach tippt Ben `A`, `B` oder `C` — oder weiterhin `E` bzw. `Stopp`. `L` allein ist der Normalfall, zählt **nicht** als Erklärung und beeinflusst die Serie nicht.
+   - `A`/`B`/`C` → Auswertung (Schritt 5).
+   - `E` → Erklärung (öffnet vor dem Antworten → Aufgabe zählt nicht, siehe Aufstiegsregel).
+   - `Stopp` → Sitzung beenden.
 5. **Auswerten:** Sag richtig/falsch. Zeige die **komplette Musterlösung** mit Ansatz und Rechenweg. Frage: „War dein Weg sauber? (j / kleiner Fehler / Ansatz gefehlt)".
 6. **Verbuchen:** Aktualisiere Serie, Fortschritt und Fehlerprotokoll (siehe Regeln). Schreibe `fortschritt.json`.
 7. Weiter mit der nächsten Aufgabe, bis Ben `Stopp` sagt.

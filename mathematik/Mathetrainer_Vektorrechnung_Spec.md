@@ -1,6 +1,6 @@
 # 🧭 Spec — Mathetrainer Vektorrechnung (GK-Abi-2027 NRW)
 
-**TL;DR:** Ben braucht einen interaktiven Mathetrainer für Vektorrechnung, der ihn **genau auf den GK-Abitur-2027-Erwartungshorizont in NRW** vorbereitet — keinen Schritt weiter. Der Trainer ist eine Claude-Code-Skill `/mathetrainer` in diesem Git-Repo plus eine Fortschrittsdatei. Er führt Ben in **7 Modulen × 3 Stufen** (einfach → Abiturniveau) Sprosse für Sprosse hoch, ohne Abkürzung. Pro Aufgabe zeigt Claude die Aufgabe in schöner Notation, Ben rechnet **auf Papier** und tippt nur `A/B/C` (Multiple Choice) oder `E` für eine Erklärung. Der Umfang ist auf die **Themenliste der Lehrerin ∩ GK-Abi-2027** begrenzt; Abstände, Hesse-Normalenform, Vektorraum/Basis und reine Beweise fallen raus. Portabilität auf einen anderen Claude-Account läuft über `git pull` (der Trainer committet+pusht die Fortschrittsdatei selbst).
+**TL;DR:** Ben braucht einen interaktiven Mathetrainer für Vektorrechnung, der ihn **genau auf den GK-Abitur-2027-Erwartungshorizont in NRW** vorbereitet — keinen Schritt weiter. Der Trainer ist eine Claude-Code-Skill `/mathetrainer` in diesem Git-Repo plus eine Fortschrittsdatei. Er führt Ben in **7 Modulen × 3 Stufen** (einfach → Abiturniveau) Sprosse für Sprosse hoch, ohne Abkürzung. Pro Aufgabe zeigt Claude die Aufgabe in schöner Notation **ohne die Antwortoptionen** (Anti-Anker); Ben rechnet **auf Papier**, blendet mit `L` die Optionen A/B/C ein und tippt dann `A/B/C` (Multiple Choice) oder `E` für eine Erklärung. Der Umfang ist auf die **Themenliste der Lehrerin ∩ GK-Abi-2027** begrenzt; Abstände, Hesse-Normalenform, Vektorraum/Basis und reine Beweise fallen raus. Portabilität auf einen anderen Claude-Account läuft über `git pull` (der Trainer committet+pusht die Fortschrittsdatei selbst).
 
 ---
 
@@ -23,8 +23,8 @@ Ablauf einer Sitzung:
 
 1. Ben startet `/mathetrainer`.
 2. Claude liest die Fortschrittsdatei und zeigt ein kurzes Dashboard (erledigte Sprossen, aktuelle Position, Top-Fehler).
-3. Claude stellt die nächste Aufgabe in schöner mathematischer Notation (KaTeX im Browser/IDE).
-4. Ben rechnet **auf Papier** und tippt nur `A`, `B` oder `C` — oder `E` für eine Erklärung, oder `Stopp` zum Pausieren.
+3. Claude stellt die nächste Aufgabe in schöner mathematischer Notation (KaTeX im Browser/IDE) — **noch ohne Antwortoptionen**, damit Ben nicht geankert wird. Darunter: `L` = Optionen A/B/C einblenden, `E` = Erklärung, `Stopp` = Stand sichern & pausieren.
+4. Ben rechnet **auf Papier**, blendet mit `L` die drei Optionen ein und tippt dann `A`, `B` oder `C` — oder `E` für eine Erklärung, oder `Stopp` zum Pausieren. `L` ist der Normalfall und beeinflusst die Serie nicht.
 5. Claude wertet aus, zeigt die vollständige Musterlösung und fragt: „War dein Weg sauber?".
 6. Claude aktualisiert Serien-Zähler und Fortschrittsdatei und stellt die nächste Aufgabe.
 
@@ -33,6 +33,7 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 ## User Stories
 
 1. Als Schüler will ich immer eine Aufgabe mit 3 Antwortmöglichkeiten bekommen, damit ich mein Papier-Ergebnis mit einem Tastendruck melden kann.
+1a. Als Schüler will ich, dass die Antwortoptionen A/B/C erst auf `L` erscheinen (nicht sofort), damit mich die vorgegebenen Zahlen beim Rechnen auf Papier nicht ankern.
 2. Als Schüler will ich statt zu antworten auch eine Erklärung anfordern können, damit ich ein Thema erst verstehe, bevor ich es übe.
 3. Als Schüler will ich auf Papier rechnen und trotzdem schöne, saubere Notation auf dem Bildschirm sehen, damit das Üben der echten Klausur entspricht.
 4. Als Schüler will ich Level für Level ohne Abkürzung aufsteigen, damit ich Lücken nicht überspringe.
@@ -55,7 +56,7 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 
 - **Aufgabenbank** — liefert eine Aufgabe für (Modul, Stufe, Hilfsmittel). Enthält: einmalig aus den HEIC-Buchfotos extrahierte In-Scope-Aufgaben, Vorlagen für generierte Drills im Original-Stil, echte Abi-Aufgaben aus den PDFs. Jede Aufgabe getaggt mit Modul, Stufe (Grund/Standard/Abi), Hilfsmittel (hilfsmittelfrei/CAS), Operator und typischen Fehlern (für die MC-Distraktoren).
 - **Fortschritts-Store** — liest/schreibt den Lernstand als JSON. Inhalt: erledigte Sprossen, aktuelles Modul + Stufe, Serien-Zähler, Fehlerprotokoll pro Thema. Schnittstelle: Stand lesen, Ergebnis verbuchen, Sprosse freischalten.
-- **Sitzungslogik (Trainer-Schleife)** — Aufgabe wählen → in KaTeX zeigen → `A/B/C/E/Stopp` entgegennehmen → auswerten → Serie/Gate aktualisieren → Musterlösung → Selbsteinschätzung → nächste Aufgabe.
+- **Sitzungslogik (Trainer-Schleife)** — Aufgabe wählen → in KaTeX **ohne Optionen** zeigen (Menü `L/E/Stopp`) → auf `L` die Optionen A/B/C einblenden → `A/B/C/E/Stopp` entgegennehmen → auswerten → Serie/Gate aktualisieren → Musterlösung → Selbsteinschätzung → nächste Aufgabe.
 - **Operatoren-Dekoder** — Nachschlage-Baustein: Operator → was er verlangt. Quelle: `m_operatoren_ab_2023_angepasst_2026.pdf`.
 - **Formel-Karteikarten** — generiertes Nachschlage-Set der In-Scope-Formeln.
 - **Generalprobe** — echte Original-Abi-Aufgabe unter Klausurbedingungen + Korrektur.
@@ -67,7 +68,7 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 - Hilfsmittel: CAS/MMS (Casio ClassPad II). Der Trainer übt auch die passenden CAS-Handgriffe (z.B. `solve`).
 - Aufstiegsregel: **2 richtige in Folge im ersten Versuch** (ohne vorher `E`/Erklärung geöffnet) → Sprosse bestanden. Falsch oder vorher Erklärung → zählt nicht; ein Fehler setzt nur den Sprossen-Zähler auf 0, nie den Gesamtfortschritt.
 - Tempo: offen, beherrschungsgetrieben, kein Termin. Richtwert ~20–30 min pro Sitzung.
-- Antwort-Eingabe: nur `A/B/C` (keine Mathe-Eingabe). Weg-Kontrolle über Musterlösung + ehrliche Selbsteinschätzung (`j` / kleiner Fehler / Ansatz gefehlt).
+- Antwort-Eingabe: nur `A/B/C` (keine Mathe-Eingabe), Optionen erst nach `L` sichtbar. Weg-Kontrolle über Musterlösung + ehrliche Selbsteinschätzung (`j` / kleiner Fehler / Ansatz gefehlt).
 - Auto-Sync: Der Trainer darf die Fortschrittsdatei selbst committen+pushen — **bewusste Ausnahme von der globalen Regel „nie automatisch pushen", begrenzt auf genau diese Datei.**
 
 **Schema Fortschrittsdatei (JSON):** Module M1–M7, je Stufe Status (offen/aktiv/bestanden), aktuelle Position, Serien-Zähler, Fehlerprotokoll (Thema → Fehlertyp → Anzahl).
@@ -91,6 +92,7 @@ Verifiziert wird der Trainer durch einen Trockenlauf, nicht durch Code-Tests:
 - **Scope-Filter:** Über eine Sitzung darf **keine** Aufgabe zu Abständen, Hesse-Normalenform, Vektorraum/Basis oder reinen Beweisen erscheinen.
 - **Aufstiegsregel:** 2 richtige in Folge schalten frei; eine falsche Antwort setzt nur den Sprossen-Zähler zurück, der Gesamtfortschritt bleibt.
 - **MC-Distraktoren:** Zu einer Beispielaufgabe wird geprüft, dass jede falsche Option einem typischen Fehler entspricht.
+- **Anti-Anker:** Direkt nach dem Stellen einer Aufgabe erscheinen keine Antwortoptionen; A/B/C werden erst nach Eingabe von `L` sichtbar.
 - **Persistenz & Resume:** Nach `Stopp`, einem simulierten `git pull` und neuem `/mathetrainer` macht der Trainer an der exakten Sprosse weiter.
 - **Rendering:** Aufgaben und Musterlösungen erscheinen als saubere KaTeX-Notation (Spaltenvektoren, Brüche, Wurzeln).
 - **Hilfsmittel-Kennzeichnung:** Jede Aufgabe zeigt „hilfsmittelfrei" oder „mit CAS".

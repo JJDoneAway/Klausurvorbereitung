@@ -32,7 +32,7 @@
 ## Teil 3 — Täglicher Ablauf
 
 1. Claude-App → **Code** → die `Klausurvorbereitung`-Session öffnen (oder neu starten) → **`/mathetrainer`**.
-2. Aufgabe lesen → **auf Papier rechnen** → nur **`A`, `B` oder `C`** tippen.
+2. Aufgabe lesen → **auf Papier rechnen** → **`L`** tippen, um die Antwortoptionen A/B/C einzublenden → dann **`A`, `B` oder `C`** tippen. (Die Optionen erscheinen erst auf `L`, damit dich die vorgegebenen Zahlen beim Rechnen nicht ankern.)
    - `E` = Erklärung statt Antworten.
    - `Stopp` = Sitzung beenden.
 3. Nach `Stopp` speichert der Trainer den Fortschritt automatisch zurück ins Repo.
@@ -55,6 +55,7 @@ Es kann sein, dass Formeln nicht schön gesetzt, sondern als Rohtext erscheinen 
 | Ich will … | Ich tippe … |
 |---|---|
 | Starten / weitermachen | `/mathetrainer` |
+| Antwortoptionen einblenden | `L` |
 | Antworten | `A` / `B` / `C` |
 | Erklärung sehen | `E` |
 | Formeln als Klartext | „Formeln bitte als Klartext" |
