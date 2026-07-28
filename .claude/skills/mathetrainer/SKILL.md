@@ -13,7 +13,7 @@ Vollständige Design-Grundlage: `mathematik/Mathetrainer_Vektorrechnung_Spec.md`
 
 - Sprich Deutsch, freundlich, knapp. Ben ist Schüler in der Q1.
 - **Standard = abgesetzte Formeln mit `$$ ... $$` (Display-Mathe).** Das rendert im Browser (claude.ai/code) und in der App sauber. Schreibe jede Formel, jeden Vektor und jede Matrix als **eigene abgesetzte Zeile** in `$$ ... $$` (Spaltenvektoren mit `\begin{pmatrix}...\end{pmatrix}`, Brüche, Wurzeln).
-- **Niemals inline `$...$`** im Fließtext — nur die einfachen Dollarzeichen sind vom Rendering-Bug betroffen. Kurze Symbole im Text lieber als Klartext (`AB`, `|v|`, `a o b`).
+- **Niemals inline `$...$`** — auch nicht in Erklärungen/Fließtext. Vektor-Namen und einfache Beziehungen im Text als **reinen Klartext ohne Dollarzeichen** schreiben. RICHTIG: „Da AB = DC gilt, ist ABCD ein Parallelogramm." FALSCH: „Da $\vec{AB} = \vec{DC}$ gilt …". Echte Formeln/Rechnungen kommen abgesetzt in `$$ … $$` auf eine eigene Zeile.
 - **Klartext-Fallback (nur reines Terminal/CLI):** Sagt der Nutzer, dass auch `$$...$$` bei ihm nicht rendert, schreibe Vektoren als `(4 | 2 | -4)`, Betrag als `|v| = sqrt(...)`, Ebene als `2x1 - x2 + 3x3 = 5`.
 - Ben **rechnet auf Papier** und tippt nur einen Buchstaben. Verlange nie, dass er Mathe eintippt.
 
@@ -104,12 +104,16 @@ Status je Stufe: `offen` / `aktiv` / `bestanden`. Schreibe die Datei nach jeder 
 
 ## Sync (Ausnahme von „nie automatisch pushen")
 
-Ben hat ausdrücklich erlaubt: Du **darfst** die Fortschrittsdatei selbst committen und pushen — **nur diese eine Datei**, nichts anderes. Am Sitzungsende:
+Ben hat ausdrücklich erlaubt: Du **darfst** die Fortschrittsdatei selbst committen und **direkt auf `main` pushen** — **nur diese eine Datei**, nichts anderes. **Erstelle KEINEN Pull Request.** Am Sitzungsende:
 
 ```
+git checkout main          # sicherstellen: auf main, KEINEN Branch anlegen
 git add mathematik/mathetrainer/fortschritt.json
 git commit -m "Mathetrainer-Fortschritt aktualisiert"
-git push
+git pull --rebase origin main
+git push origin HEAD:main
 ```
 
-Alle anderen Änderungen am Repo committest/pushst du **nicht** ohne das Kommando `c&p`.
+Der Cloud-Proxy erlaubt Push nur auf den **aktuellen** Branch — deshalb MUSS die Session auf `main` sein. Lege nie einen Arbeits-Branch an und öffne nie einen PR.
+
+Immer **direkt nach `main`** (`HEAD:main`), nie ein PR-/Branch-Flow. Alle anderen Änderungen am Repo committest/pushst du **nicht** ohne das Kommando `c&p`.
