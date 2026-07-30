@@ -43,6 +43,7 @@ Vollständige Design-Grundlage: `mathematik/Mathetrainer_Vektorrechnung_Spec.md`
 ## Multiple-Choice-Regel
 
 - Genau eine Option ist richtig. Die **zwei Falsch-Optionen baust du aus typischen Fehlern** (Vorzeichenfehler, „Spitze minus Fuß" vertauscht, Betrag vergessen, Skalarprodukt mit Kreuzprodukt verwechselt, Parameter nicht zurückgesetzt). So erkennt Ben aus einer falschen Wahl sofort seinen Fehler — erkläre das in der Auswertung.
+- **Position der richtigen Option (Pflicht):** Die richtige Antwort darf **nicht** immer A sein. Lege die Stelle **deterministisch** über den Zähler `mc_rotation` aus `fortschritt.json` fest: `mc_rotation mod 3` → `0 = A`, `1 = B`, `2 = C`. Platziere die richtige Option genau dort, die beiden Distraktoren auf die übrigen Plätze. **Erhöhe `mc_rotation` nach jeder gestellten Aufgabe um 1** und schreibe die Datei (auch wenn Ben nur `L` drückt und gar nicht antwortet — jede gestellte Aufgabe zählt für die Rotation). So ist die richtige Antwort gleichmäßig über A/B/C verteilt und der Reflex „richtige Option zuerst = A" ist ausgeschlossen.
 
 ## Aufgabenquellen pro Sprosse
 
@@ -96,6 +97,7 @@ Pfad: `mathematik/mathetrainer/fortschritt.json`. Struktur:
   "aktuelles_modul": "M1",
   "aktuelle_stufe": "Grund",
   "serie": 0,
+  "mc_rotation": 0,
   "module": {
     "M1": { "Grund": "aktiv", "Standard": "offen", "Abi": "offen" },
     "M2": { "Grund": "offen", "Standard": "offen", "Abi": "offen" }
@@ -104,7 +106,7 @@ Pfad: `mathematik/mathetrainer/fortschritt.json`. Struktur:
 }
 ```
 
-Status je Stufe: `offen` / `aktiv` / `bestanden`. Schreibe die Datei nach jeder verbuchten Aufgabe.
+Status je Stufe: `offen` / `aktiv` / `bestanden`. `mc_rotation` steuert die Position der richtigen MC-Option (siehe Multiple-Choice-Regel); fehlt das Feld, starte bei `0`. Schreibe die Datei nach jeder verbuchten Aufgabe.
 
 ## Sync (Ausnahme von „nie automatisch pushen")
 

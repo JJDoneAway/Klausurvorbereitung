@@ -71,7 +71,7 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 - Antwort-Eingabe: nur `A/B/C` (keine Mathe-Eingabe), Optionen erst nach `L` sichtbar. Weg-Kontrolle über Musterlösung + ehrliche Selbsteinschätzung (`j` / kleiner Fehler / Ansatz gefehlt).
 - Auto-Sync: Der Trainer darf die Fortschrittsdatei selbst committen+pushen — **bewusste Ausnahme von der globalen Regel „nie automatisch pushen", begrenzt auf genau diese Datei.**
 
-**Schema Fortschrittsdatei (JSON):** Module M1–M7, je Stufe Status (offen/aktiv/bestanden), aktuelle Position, Serien-Zähler, Fehlerprotokoll (Thema → Fehlertyp → Anzahl).
+**Schema Fortschrittsdatei (JSON):** Module M1–M7, je Stufe Status (offen/aktiv/bestanden), aktuelle Position, Serien-Zähler, `mc_rotation` (Rotations-Zähler für die Position der richtigen MC-Option), Fehlerprotokoll (Thema → Fehlertyp → Anzahl).
 
 **Umfang (Themenliste Lehrerin ∩ GK-Abi-2027), 7 Module × 3 Stufen, streng der Reihe nach:**
 
@@ -92,6 +92,7 @@ Verifiziert wird der Trainer durch einen Trockenlauf, nicht durch Code-Tests:
 - **Scope-Filter:** Über eine Sitzung darf **keine** Aufgabe zu Abständen, Hesse-Normalenform, Vektorraum/Basis oder reinen Beweisen erscheinen.
 - **Aufstiegsregel:** 2 richtige in Folge schalten frei; eine falsche Antwort setzt nur den Sprossen-Zähler zurück, der Gesamtfortschritt bleibt.
 - **MC-Distraktoren:** Zu einer Beispielaufgabe wird geprüft, dass jede falsche Option einem typischen Fehler entspricht.
+- **MC-Position:** Über mehrere Aufgaben ist die richtige Option nicht immer A; sie folgt `mc_rotation mod 3` (A/B/C) und ist damit gleichmäßig verteilt.
 - **Anti-Anker:** Direkt nach dem Stellen einer Aufgabe erscheinen keine Antwortoptionen; A/B/C werden erst nach Eingabe von `L` sichtbar.
 - **Persistenz & Resume:** Nach `Stopp`, einem simulierten `git pull` und neuem `/mathetrainer` macht der Trainer an der exakten Sprosse weiter.
 - **Rendering:** Aufgaben und Musterlösungen erscheinen als saubere KaTeX-Notation (Spaltenvektoren, Brüche, Wurzeln).
