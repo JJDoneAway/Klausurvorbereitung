@@ -1,7 +1,7 @@
 {
   "aktuelles_modul": "M2",
   "aktuelle_stufe": "Abi",
-  "serie": 0,
+  "serie": 1,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "aktiv" },
