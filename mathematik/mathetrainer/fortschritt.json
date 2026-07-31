@@ -2,7 +2,7 @@
   "aktuelles_modul": "M3",
   "aktuelle_stufe": "Abi",
   "serie": 0,
-  "mc_rotation": 2,
+  "mc_rotation": 3,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
