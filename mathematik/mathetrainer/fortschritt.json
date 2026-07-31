@@ -1,12 +1,12 @@
 {
   "aktuelles_modul": "M3",
-  "aktuelle_stufe": "Standard",
-  "serie": 1,
+  "aktuelle_stufe": "Abi",
+  "serie": 0,
   "mc_rotation": 2,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
-    "M3": { "name": "Geraden aufstellen", "Grund": "bestanden", "Standard": "aktiv", "Abi": "offen" },
+    "M3": { "name": "Geraden aufstellen", "Grund": "bestanden", "Standard": "bestanden", "Abi": "aktiv" },
     "M4": { "name": "Lagebeziehung von Geraden (+ LGS)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M5": { "name": "Ebenen (Para-/Koordinatenform, Normalenvektor)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
