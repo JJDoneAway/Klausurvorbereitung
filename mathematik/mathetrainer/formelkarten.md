@@ -31,11 +31,20 @@
 - **schneidend:** nicht parallel, LGS $\vec{p_1}+t\vec{u} = \vec{p_2}+s\vec{w}$ hat eine Lösung.
 - **windschief:** nicht parallel und LGS hat keine Lösung.
 
+## M4b — Kreuzprodukt (Vektorprodukt)
+
+- **Kreuzprodukt:** $\vec{u}\times\vec{v} = \begin{pmatrix} u_2 v_3 - u_3 v_2 \\ u_3 v_1 - u_1 v_3 \\ u_1 v_2 - u_2 v_1 \end{pmatrix}$.
+- **Kernaussage:** $\vec{u}\times\vec{v}$ steht **senkrecht auf $\vec{u}$ und auf $\vec{v}$** → direkt ein **Normalenvektor** der von $\vec{u}$, $\vec{v}$ aufgespannten Ebene.
+- **Probe:** $(\vec{u}\times\vec{v})\circ\vec{u} = 0$ **und** $(\vec{u}\times\vec{v})\circ\vec{v} = 0$.
+- **CAS:** `crossP(u, v)` (Casio ClassPad) liefert das Ergebnis direkt.
+- *(Nur Werkzeug für Normalen-/orthogonale Vektoren — nicht für Flächen/Volumen/Spat.)*
+
 ## M5 — Ebenen
 
 - **Parameterform:** $E:\ \vec{x} = \vec{p} + s\cdot\vec{u} + t\cdot\vec{w}$.
 - **Koordinatenform:** $a x_1 + b x_2 + c x_3 = d$.
 - **Normalenvektor** aus Koordinatenform: $\vec{n} = \begin{pmatrix} a \\ b \\ c \end{pmatrix}$.
+- **Normalenvektor aus Parameterform:** $\vec{n} = \vec{u}\times\vec{w}$ (Kreuzprodukt der beiden Spannvektoren, siehe M4b).
 - **Punktprobe:** Punkt in die Koordinatenform einsetzen; Gleichung erfüllt → Punkt liegt in $E$.
 - *(Nur überstreichen)* **Normalenform:** $\vec{n}\circ(\vec{x}-\vec{p}) = 0$ — ausmultipliziert ergibt sie die Koordinatenform.
 

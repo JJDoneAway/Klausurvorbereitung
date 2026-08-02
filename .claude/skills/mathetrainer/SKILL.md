@@ -49,23 +49,24 @@ Vollständige Design-Grundlage: `mathematik/Mathetrainer_Vektorrechnung_Spec.md`
 
 1. **Hinführung:** passende Buchaufgaben (Lambacher Schweizer) aus `mathematik/mathetrainer/aufgabenbank.md` (nach Modul/Stufe/Hilfsmittel getaggt). Sind für eine Sprosse zu wenige da, ergänze mit Aufgaben im gleichen Stil.
 2. **Festigen:** von dir generierte Drills im **Original-Stil** (eiche dich an den PDF-Originalen in `mathematik/AbiMathe_GK_Vektoren/`).
-3. **Schlussstein (Abi-Stufe):** echte Original-Abi-Aufgaben aus den PDFs (`mathe_2025_typ_vektorielle_geom_gk.pdf`, `1.pruefungsteil_gk_ab2026_*.pdf`, `2.pruefungsteil_gk_ab2026_geometrie_b3_cas.pdf`) plus generierte Abi-Aufgaben.
+3. **Schlussstein (Abi-Stufe):** echte Original-Abi-Aufgaben aus den PDFs (`mathe_2025_typ_vektorielle_geom_gk.pdf`, `1.pruefungsteil_gk_ab2026_*.pdf`, `2.pruefungsteil_gk_ab2026_geometrie_b3_cas.pdf`) plus generierte Abi-Aufgaben. **Ausnahme M4b:** dafür gibt es keine Original-Abi-Aufgabe (Kreuzprodukt kommt nicht isoliert vor) → Abi-Stufe = generierte Abi-Stil-Aufgaben, in denen das Kreuzprodukt einen Normalenvektor/eine Koordinatenform liefert.
 
-## Umfang — 7 Module × 3 Stufen (Grund / Standard / Abi)
+## Umfang — 8 Module × 3 Stufen (Grund / Standard / Abi)
 
-Streng der Reihe nach. Jede Stufe steigt von einfach zu Abiturniveau.
+Sieben Themenmodule M1–M7 plus das **Werkzeugmodul M4b (Kreuzprodukt)** zwischen M4 und M5. Streng der Reihe nach: M1 → M2 → M3 → M4 → **M4b** → M5 → M6 → M7. Jede Stufe steigt von einfach zu Abiturniveau.
 
 - **M1 Vektor-Grundlagen & Betrag:** Punkte/Ortsvektor, Vektor `AB` = Spitze − Fuß, Rechenoperationen, Vielfache/Kollinearität, Betrag `|v| = √(x²+y²+z²)`.
 - **M2 Skalarprodukt & Winkel:** Skalarprodukt, Orthogonalität (Ergebnis 0), Winkel zwischen Vektoren `cos φ = (a·b)/(|a||b|)`.
 - **M3 Geraden aufstellen:** Parametergleichung aus zwei Punkten / Punkt + Richtung, Punktprobe.
 - **M4 Lagebeziehung von Geraden:** identisch / echt parallel / schneidend / windschief; Schnittpunkt zweier Geraden (LGS als Werkzeug — hilfsmittelfrei von Hand, mit CAS `solve`).
-- **M5 Ebenen:** Parameterform, Koordinatenform, Normalenvektor ablesen/bestimmen, Punktprobe, Umrechnen Parameter- ↔ Koordinatenform. **Normalenform nur überstreichen** (kurzer Konzept-Block: `n∘(x−a)=0` und Zusammenhang mit Koordinatenform; 1–2 Erkenn-Aufgaben, KEINE eigene Serie).
+- **M4b Kreuzprodukt (Vektorprodukt) — Werkzeugmodul:** `u × v` berechnen (hilfsmittelfrei koordinatenweise, mit CAS-Handgriff); Kernaussage: `u × v` steht **senkrecht auf u und auf v** → liefert direkt einen **Normalenvektor**. Nur als **Werkzeug für Normalen-/orthogonale Vektoren** üben (Vorbereitung auf M5). **Nicht** für Flächen/Volumen/Spat (außerhalb GK-Abi-2027). Ist offiziell nicht in den 2027-Vorgaben, aber ein **erlaubtes Verfahren** — bewusst aufgenommen, weil es den Normalenvektor in M5 greifbar macht.
+- **M5 Ebenen:** Parameterform, Koordinatenform, Normalenvektor bestimmen (**per Kreuzprodukt aus M4b** oder über das LGS `n∘u=0`, `n∘v=0`), Punktprobe, Umrechnen Parameter- ↔ Koordinatenform. **Normalenform nur überstreichen** (kurzer Konzept-Block: `n∘(x−a)=0` und Zusammenhang mit Koordinatenform; 1–2 Erkenn-Aufgaben, KEINE eigene Serie).
 - **M6 Lagebeziehung Gerade–Ebene:** Durchstoßpunkt (Gerade in Ebene einsetzen → nach t lösen → einsetzen), Sonderfälle parallel / liegt in der Ebene.
 - **M7 Schnittwinkel:** Gerade–Gerade, Gerade–Ebene, Ebene–Ebene (Formeln aus der Formelsammlung, Skalarprodukt der Richtungs-/Normalenvektoren).
 
 ### Nicht üben (außerhalb GK-Abi-2027) — niemals stellen
 
-Abstände (Punkt–Gerade, Punkt–Ebene, windschiefe Geraden), Hesse'sche Normalenform, Spiegelungen, Volumen/Pyramiden, Vektorraum/Basis/Dimension, reine Geometrie-Beweise. Taucht so etwas in einer Original-Aufgabe auf, überspringe den Teil und sag klar „außerhalb GK-2027".
+Abstände (Punkt–Gerade, Punkt–Ebene, windschiefe Geraden), Hesse'sche Normalenform, Spiegelungen, Volumen/Pyramiden, Vektorraum/Basis/Dimension, reine Geometrie-Beweise. **Auch mit M4b:** das Kreuzprodukt ist nur Werkzeug für Normalen-/orthogonale Vektoren — **Flächen-, Volumen- und Spat-Berechnung per Kreuzprodukt bleiben draußen.** Taucht so etwas in einer Original-Aufgabe auf, überspringe den Teil und sag klar „außerhalb GK-2027".
 
 ## Hilfsmittel
 
@@ -85,7 +86,7 @@ Merke Ben ein: „berechnen" ohne hingeschriebenen Ansatz kostet Punkte.
 ## Bausteine
 
 - **Fehlerprotokoll:** Notiere pro Thema den Fehlertyp in `fortschritt.json`. Vor einem Aufstieg wiederhole gezielt einen früheren Fehlertyp.
-- **Generalprobe + Zeittraining:** Wenn Ben es wünscht oder alle 7 Module durch sind, stelle eine **komplette echte Original-Abi-Vektoraufgabe** unter Klausurbedingungen (Richtzeit nennen, Formelsammlung erlaubt), danach korrigiere wie ein Korrektor und zeig, wo Teilpunkte säßen.
+- **Generalprobe + Zeittraining:** Wenn Ben es wünscht oder alle Module durch sind, stelle eine **komplette echte Original-Abi-Vektoraufgabe** unter Klausurbedingungen (Richtzeit nennen, Formelsammlung erlaubt), danach korrigiere wie ein Korrektor und zeig, wo Teilpunkte säßen.
 - **Formel-Karteikarten:** `mathematik/mathetrainer/formelkarten.md` — verweise darauf zum Wiederholen.
 
 ## Fortschrittsdatei

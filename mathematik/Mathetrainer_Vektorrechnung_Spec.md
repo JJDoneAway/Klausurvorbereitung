@@ -1,6 +1,6 @@
 # 🧭 Spec — Mathetrainer Vektorrechnung (GK-Abi-2027 NRW)
 
-**TL;DR:** Ben braucht einen interaktiven Mathetrainer für Vektorrechnung, der ihn **genau auf den GK-Abitur-2027-Erwartungshorizont in NRW** vorbereitet — keinen Schritt weiter. Der Trainer ist eine Claude-Code-Skill `/mathetrainer` in diesem Git-Repo plus eine Fortschrittsdatei. Er führt Ben in **7 Modulen × 3 Stufen** (einfach → Abiturniveau) Sprosse für Sprosse hoch, ohne Abkürzung. Pro Aufgabe zeigt Claude die Aufgabe in schöner Notation **ohne die Antwortoptionen** (Anti-Anker); Ben rechnet **auf Papier**, blendet mit `L` die Optionen A/B/C ein und tippt dann `A/B/C` (Multiple Choice) oder `E` für eine Erklärung. Der Umfang ist auf die **Themenliste der Lehrerin ∩ GK-Abi-2027** begrenzt; Abstände, Hesse-Normalenform, Vektorraum/Basis und reine Beweise fallen raus. Portabilität auf einen anderen Claude-Account läuft über `git pull` (der Trainer committet+pusht die Fortschrittsdatei selbst).
+**TL;DR:** Ben braucht einen interaktiven Mathetrainer für Vektorrechnung, der ihn **genau auf den GK-Abitur-2027-Erwartungshorizont in NRW** vorbereitet — keinen Schritt weiter. Der Trainer ist eine Claude-Code-Skill `/mathetrainer` in diesem Git-Repo plus eine Fortschrittsdatei. Er führt Ben in **8 Modulen × 3 Stufen** (7 Themenmodule M1–M7 + Werkzeugmodul M4b Kreuzprodukt, einfach → Abiturniveau) Sprosse für Sprosse hoch, ohne Abkürzung. Pro Aufgabe zeigt Claude die Aufgabe in schöner Notation **ohne die Antwortoptionen** (Anti-Anker); Ben rechnet **auf Papier**, blendet mit `L` die Optionen A/B/C ein und tippt dann `A/B/C` (Multiple Choice) oder `E` für eine Erklärung. Der Umfang ist auf die **Themenliste der Lehrerin ∩ GK-Abi-2027** begrenzt; Abstände, Hesse-Normalenform, Vektorraum/Basis und reine Beweise fallen raus. Portabilität auf einen anderen Claude-Account läuft über `git pull` (der Trainer committet+pusht die Fortschrittsdatei selbst).
 
 ---
 
@@ -73,7 +73,7 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 
 **Schema Fortschrittsdatei (JSON):** Module M1–M7, je Stufe Status (offen/aktiv/bestanden), aktuelle Position, Serien-Zähler, `mc_rotation` (Rotations-Zähler für die Position der richtigen MC-Option), Fehlerprotokoll (Thema → Fehlertyp → Anzahl).
 
-**Umfang (Themenliste Lehrerin ∩ GK-Abi-2027), 7 Module × 3 Stufen, streng der Reihe nach:**
+**Umfang (Themenliste Lehrerin ∩ GK-Abi-2027 + Werkzeugmodul Kreuzprodukt), 8 Module × 3 Stufen, streng der Reihe nach:**
 
 | Modul | Inhalt | Tiefe |
 |---|---|---|
@@ -81,7 +81,8 @@ Der Umfang folgt der **Themenliste der Lehrerin, abgeglichen mit den GK-Abi-2027
 | M2 | Skalarprodukt & Winkel zwischen Vektoren | voll |
 | M3 | Geraden aufstellen | voll |
 | M4 | Lagebeziehung von Geraden (+ LGS) | voll |
-| M5 | Ebenen: Parameterform, Koordinatenform, Normalenvektor | voll; **Normalenform nur überstreichen** |
+| M4b | Kreuzprodukt (Vektorprodukt) — Werkzeug für Normalenvektoren | Werkzeug; **nur** orthogonale/Normalen-Vektoren, **nicht** Fläche/Volumen/Spat |
+| M5 | Ebenen: Parameterform, Koordinatenform, Normalenvektor (per Kreuzprodukt oder LGS) | voll; **Normalenform nur überstreichen** |
 | M6 | Lagebeziehung Gerade–Ebene / Durchstoßpunkt | voll |
 | M7 | Schnittwinkel (Gerade–Gerade, Gerade–Ebene, Ebene–Ebene) | voll |
 

@@ -8,6 +8,7 @@
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M3": { "name": "Geraden aufstellen", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M4": { "name": "Lagebeziehung von Geraden (+ LGS)", "Grund": "bestanden", "Standard": "bestanden", "Abi": "aktiv" },
+    "M4b": { "name": "Kreuzprodukt (Vektorprodukt) - Werkzeug fuer Normalenvektoren", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M5": { "name": "Ebenen (Para-/Koordinatenform, Normalenvektor)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M7": { "name": "Schnittwinkel (G-G, G-E, E-E)", "Grund": "offen", "Standard": "offen", "Abi": "offen" }

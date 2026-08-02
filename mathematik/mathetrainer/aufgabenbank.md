@@ -35,6 +35,10 @@ Notation: `[hf]` = hilfsmittelfrei, `[CAS]` = mit CAS erlaubt. Stufen: Grund / S
 - **S.303 Nr.15** `[CAS]` Abi (Sachaufgabe) — Körper fährt geradlinig 10 km/h auf der Geraden durch $A(1|2|4)$, $B(3|1|5)$, Start in $A$. Wo ist er nach 30 min? *(Teil „Ursprung am nächsten"/Abstand ist außerhalb — weglassen.)*
 - **S.303 Nr.17** `[CAS]` Abi (Sachaufgabe) — Leuchtkugeln fliegen geradlinig; schneiden sich die Bahnen, und treffen sie sich zum gleichen Zeitpunkt? (Lage zweier Geraden im Sachkontext.)
 
+## M4b — Kreuzprodukt (Vektorprodukt) — Werkzeugmodul
+
+- *Keine Buch-Aufgabe im Material* (Kreuzprodukt ist im GK-Buchstoff nicht enthalten) → Trainer generiert Drills im gleichen Stil: `u × v` berechnen, Orthogonalität per Skalarprodukt prüfen, Normalenvektor einer Ebene aus zwei Spannvektoren bestimmen. **Nur** Normalen-/orthogonale Vektoren — keine Flächen/Volumen/Spat.
+
 ## M5 — Ebenen (Parameterform, Koordinatenform, Normalenvektor)
 
 - **S.334 Nr.1** `[hf]` Grund — Ebene $E:4x_1+x_2=8$. a) Begründe, dass eine Koordinatenachse parallel liegt. b) Zeichne einen Ebenenausschnitt.
