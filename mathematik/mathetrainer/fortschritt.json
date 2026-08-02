@@ -2,7 +2,7 @@
   "aktuelles_modul": "M4",
   "aktuelle_stufe": "Grund",
   "serie": 0,
-  "mc_rotation": 7,
+  "mc_rotation": 8,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
@@ -14,6 +14,7 @@
   },
   "fehlerprotokoll": {
     "Kollinearitaet": ["Nicht alle Komponenten auf gemeinsames Lambda geprüft (M1 Standard)"],
-    "Tagging_Hilfsmittel": ["Winkelaufgabe faelschlich als hilfsmittelfrei markiert, obwohl arccos verlangt war (M2 Standard) - Trainer-Fehler, korrigiert"]
+    "Tagging_Hilfsmittel": ["Winkelaufgabe faelschlich als hilfsmittelfrei markiert, obwohl arccos verlangt war (M2 Standard) - Trainer-Fehler, korrigiert"],
+    "Lagebeziehung_Geraden": ["Punktprobe bei parallelen Richtungsvektoren nicht bis zum Ende durchgefuehrt, dadurch identisch mit echt parallel verwechselt (M4 Grund)"]
   }
 }
