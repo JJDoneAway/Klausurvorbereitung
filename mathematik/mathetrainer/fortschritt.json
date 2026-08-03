@@ -1,14 +1,14 @@
 {
   "aktuelles_modul": "M4b",
-  "aktuelle_stufe": "Grund",
-  "serie": 1,
-  "mc_rotation": 15,
+  "aktuelle_stufe": "Standard",
+  "serie": 0,
+  "mc_rotation": 16,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M3": { "name": "Geraden aufstellen", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M4": { "name": "Lagebeziehung von Geraden (+ LGS)", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
-    "M4b": { "name": "Kreuzprodukt (Vektorprodukt) - Werkzeug fuer Normalenvektoren", "Grund": "aktiv", "Standard": "offen", "Abi": "offen" },
+    "M4b": { "name": "Kreuzprodukt (Vektorprodukt) - Werkzeug fuer Normalenvektoren", "Grund": "bestanden", "Standard": "aktiv", "Abi": "offen" },
     "M5": { "name": "Ebenen (Para-/Koordinatenform, Normalenvektor)", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M6": { "name": "Lagebeziehung Gerade-Ebene / Durchstosspunkt", "Grund": "offen", "Standard": "offen", "Abi": "offen" },
     "M7": { "name": "Schnittwinkel (G-G, G-E, E-E)", "Grund": "offen", "Standard": "offen", "Abi": "offen" }
