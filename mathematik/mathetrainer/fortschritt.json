@@ -2,7 +2,7 @@
   "aktuelles_modul": "M4b",
   "aktuelle_stufe": "Abi",
   "serie": 0,
-  "mc_rotation": 19,
+  "mc_rotation": 20,
   "module": {
     "M1": { "name": "Vektor-Grundlagen & Betrag", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
     "M2": { "name": "Skalarprodukt & Winkel", "Grund": "bestanden", "Standard": "bestanden", "Abi": "bestanden" },
@@ -17,6 +17,6 @@
     "Kollinearitaet": ["Nicht alle Komponenten auf gemeinsames Lambda geprüft (M1 Standard)"],
     "Tagging_Hilfsmittel": ["Winkelaufgabe faelschlich als hilfsmittelfrei markiert, obwohl arccos verlangt war (M2 Standard) - Trainer-Fehler, korrigiert"],
     "Lagebeziehung_Geraden": ["Punktprobe bei parallelen Richtungsvektoren nicht bis zum Ende durchgefuehrt, dadurch identisch mit echt parallel verwechselt (M4 Grund)"],
-    "Kreuzprodukt": ["Reihenfolge der Spannvektoren beim Kreuzprodukt vertauscht (AC x AB statt AB x AC), Vorzeichen falsch (M4b Abi)"]
+    "Kreuzprodukt": ["Reihenfolge der Spannvektoren beim Kreuzprodukt vertauscht (AC x AB statt AB x AC), Vorzeichen falsch (M4b Abi)", "Fehler wiederholt: erneut Reihenfolge vertauscht (v x u statt u x v) - Reihenfolge scheint noch nicht gefestigt (M4b Abi)"]
   }
 }
